@@ -1,6 +1,6 @@
 # Hello world 😊
 ####  a simple markdown editor can use in browser.
-#### this was builded by [showdown](https://github.com/showdownjs/showdown "Title")  & [Vue](https://github.com/vuejs/vue "Title") ,and the icon via [fontawesome](http://fontawesome.io/ "Title")
+#### this was builded by [showdown](https://github.com/showdownjs/showdown "Title")  & [Vue](https://github.com/vuejs/vue "Title")
 ## Installation
 ```
 <script src="//cdn.bootcss.com/showdown/1.4.1/showdown.js"></script>
