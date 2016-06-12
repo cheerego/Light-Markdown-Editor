@@ -17,7 +17,7 @@
     height: 20px;
     background-repeat: no-repeat;
     background-size: 380px 60px;
-    background-image: url('../editor@2x.png');
+    background-image: url('editor@2x.png');
 }
 
 #editor > p {
