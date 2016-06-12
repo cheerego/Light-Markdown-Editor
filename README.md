@@ -18,6 +18,6 @@
 </div>
 <script !src="">
      new Vue({
-        el: '#editor'
+       el: '#editor' //使用包裹<editor></editor>标签div的id
     })
 ```
