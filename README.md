@@ -17,7 +17,14 @@
     <editor></editor>
 </div>
 <script !src="">
-     new Vue({
+    var editor =  new Vue({
        el: '#editor' //使用包裹<editor></editor>标签div的id
     })
 ```
+
++## Method
+Get content by model
+```<input type='hidden' v-model='output'></input>```
+Get content by Javascript
+```editor.input
+editor.output```
