@@ -1,0 +1,156 @@
+#editor {
+    background-color: #f6f6f6;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 3px; /* W3C syntax */
+}
+
+.icon {
+    margin: auto 2px;
+    display: inline-block;
+    padding: 0;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: 380px 60px;
+    background-image: url('../editor@2x.png');
+}
+
+#editor > p {
+    background-color: white;
+    margin: 0 auto;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+#editor > textarea {
+    outline: none;
+    background-color: white;
+    font-size: 14px;
+    font-family: 'Monaco', courier, monospace;
+    display: inline-block;
+    border: 0;
+    padding: 0;
+    width: 50%;
+    resize: none;
+}
+
+#editor > div {
+    margin: 0;
+    display: inline-block;
+    background-color: #f6f6f6;
+    vertical-align: top;
+    width: 49%;
+    height: 100%;
+}
+
+.icon-bold {
+    background-position: 0px 0px;
+}
+
+.icon-italic {
+    background-position: -20px 0px;
+}
+
+.icon-link {
+    background-position: -40px 0px;
+}
+
+.icon-colon {
+    background-position: -60px 0px;
+}
+
+.icon-code {
+    background-position: -80px 0px;
+}
+
+.icon-photo {
+    background-position: -100px 0px;
+}
+
+.icon-ul {
+    background-position: -120px 0px;
+}
+
+.icon-ol {
+    background-position: -140px 0px;
+}
+
+.icon-title {
+    background-position: -160px 0px;
+}
+
+.icon-hr {
+    background-position: -180px 0px;
+}
+
+.icon-right {
+    float: right;
+    background-position: -320px 0px;
+}
+
+.icon-center {
+    float: right;
+    background-position: -340px 0px;
+}
+
+.icon-left {
+    float: right;
+    background-position: -360px 0px;
+}
+
+.icon-bold:hover {
+    background-position: 0px -40px;
+}
+
+.icon-italic:hover {
+    background-position: -20px -40px;
+}
+
+.icon-link:hover {
+    background-position: -40px -40px;
+}
+
+.icon-colon:hover {
+    background-position: -60px -40px;
+}
+
+.icon-code:hover {
+    background-position: -80px -40px;
+}
+
+.icon-photo:hover {
+    background-position: -100px -40px;
+}
+
+.icon-ul:hover {
+    background-position: -120px -40px;
+}
+
+.icon-ol:hover {
+    background-position: -140px -40px;
+}
+
+.icon-title:hover {
+    background-position: -160px -40px;
+}
+
+.icon-hr:hover {
+    background-position: -180px -40px;
+}
+
+.icon-right:hover {
+    background-position: -320px -40px;
+}
+
+.icon-center:hover {
+    background-position: -340px -40px;
+}
+
+.icon-left:hover {
+    background-position: -360px -40px;
+}
