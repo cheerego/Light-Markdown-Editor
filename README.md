@@ -24,7 +24,11 @@
 
 ## Method
 Get content by model
-```<input type='hidden' v-model='output'></input>```
+```
+<input type='hidden' v-model='output'></input>
+```
 Get content by Javascript
-```editor.input
-editor.output```
+```
+editor.input
+editor.output
+```
