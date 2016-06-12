@@ -10,15 +10,20 @@
 
 <body>
 
-
-<div id="editor">
-    <editor></editor>
-</div>
+<form action="">
+    <div id="editor">
+        <editor></editor>
+        <input type="text" v-model="output">
+        <input type="text" v-model="input">
+    </div>
+</form>
 <script src="dist/editor.js"></script>
 <script !src="">
-     new Vue({
+    var editor = new Vue({
         el: '#editor'
     })
+    console.log(editor.data());
+    console.log(editor.output);
 </script>
 </body>
 </html>

@@ -5,7 +5,7 @@
 var converter = new showdown.Converter();
 // 定义
 var Editor = Vue.extend({
-    template: ' <p> <a @click="bold" class="icon icon-bold"></a> <a @click="italic" class="icon icon-italic"></a> <a @click="link" class="icon icon-link"></a> <a @click="colon" class="icon icon-colon"></a> <a @click="code" class="icon icon-code"></a> <a @click="photo" class="icon icon-photo"></a> <a @click="ul" class="icon icon-ul"></a> <a @click="ol" class="icon icon-ol"></a> <a @click="title" class="icon icon-title"></a> <a @click="hr" class="icon icon-hr"></a> <a @click="left" class="icon icon-left"></a> <a @click="center" class="icon icon-center"></a> <a @click="right" class="icon icon-right"></a> </p> <textarea id="markdown" v-model="input" debounce="500" style="display: inline-block" rows="16"></textarea> <div>{{{ output }}}</div>',
+    template: ' <p> <a @click="bold" class="icon icon-bold"></a> <a @click="italic" class="icon icon-italic"></a> <a @click="link" class="icon icon-link"></a> <a @click="colon" class="icon icon-colon"></a> <a @click="code" class="icon icon-code"></a> <a @click="photo" class="icon icon-photo"></a> <a @click="ul" class="icon icon-ul"></a> <a @click="ol" class="icon icon-ol"></a> <a @click="title" class="icon icon-title"></a> <a @click="hr" class="icon icon-hr"></a> <a @click="left" class="icon icon-left"></a> <a @click="center" class="icon icon-center"></a> <a @click="right" class="icon icon-right"></a> </p> <textarea id="markdown" v-model="input" debounce="500" style="display: inline-block" rows="16"></textarea> <input type="hidden" name="content" v-model="input"><input type="hidden" name="html" v-model="output"><div>{{{ output }}}</div>',
     data: function () {
         return {
             input: '#hello world',

@@ -22,13 +22,17 @@
     })
 ```
 
-## Method
-Get content by model  form write in  <div id="editor"><editor></editor> </div>
+## Getdata
+
+<editor></editor>has two hidden input label
 ```
-<input type='hidden' v-model='output'></input>
+<input type="hidden" name="content" v-model="input">
+<input type="hidden" name="html" v-model="output">
 ```
-Get content by Javascript
 ```
-editor.input
-editor.output
+<form>
+<div id="editor">
+    <editor></editor>
+</div>
+</form>
 ```
