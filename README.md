@@ -13,7 +13,7 @@
 ```
 #Html
 ```
-<div id="editor" style="width: 50%">
+<div id="editor">
     <editor></editor>
 </div>
 <script !src="">
@@ -23,7 +23,7 @@
 ```
 
 ## Method
-Get content by model
+Get content by model  form write in  <div id="editor"><editor></editor> </div>
 ```
 <input type='hidden' v-model='output'></input>
 ```
