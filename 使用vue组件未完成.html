@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="//cdn.bootcss.com/showdown/1.4.1/showdown.js"></script>
+    <script src="http://cn.vuejs.org/js/vue.js"></script>
+    <link rel="stylesheet" href="dist/editor.css">
+</head>
+
+<body>
+
+<form action="">
+    <div id="editor">
+        <editor></editor>
+    </div>
+</form>
+<script src="dist/editor.js"></script>
+<script !src="">
+    var editor = new Vue({
+        el: '#editor',
+        data: {
+            input: '#hello world',
+            position: null,
+
+        }
+    })
+</script>
+</body>
+</html>
